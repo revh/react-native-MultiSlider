@@ -4,7 +4,7 @@ import React, {
   Component,
 } from "react";
 
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 import {
   Animated,
@@ -50,7 +50,7 @@ class MultiSlider extends Component {
     };
   }
 
-  static propTypes = {
+  /*static propTypes = {
     leftValue: PropTypes.number,            // left thumb's value
     rightValue: PropTypes.number,           // right thumb's value
 
@@ -83,7 +83,7 @@ class MultiSlider extends Component {
     disabled: PropTypes.bool,                     // component state
 
     allowSameValues: PropTypes.bool               // allow the sliders to select the same values
-  }
+  }*/
 
   static defaultProps = {
     leftValue: 0,
